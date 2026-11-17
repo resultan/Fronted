@@ -1,0 +1,32 @@
+
+function Header() {
+  return (
+    <header className="flex flex-col gap-4 border-b border-slate-200 bg-white px-6 py-4 sm:flex-row sm:items-center sm:justify-between">
+      <div>
+        <h2 className="text-xl font-bold text-slate-800">
+          Dashboard
+        </h2>
+        <p className="text-sm text-slate-500">
+          Manage your car show registrations
+        </p>
+      </div>
+
+      <div className="flex items-center gap-3">
+        <div className="hidden text-right sm:block">
+          <p className="text-sm font-semibold text-slate-800">
+            Administrator
+          </p>
+          <p className="text-xs text-slate-500">
+            System Admin
+          </p>
+        </div>
+
+        <div className="flex h-10 w-10 items-center justify-center rounded-full bg-blue-100 font-bold text-blue-700">
+          A
+        </div>
+      </div>
+    </header>
+  );
+}
+
+export default Header;
